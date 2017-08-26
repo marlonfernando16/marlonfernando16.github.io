@@ -1,0 +1,99 @@
+@charset "utf8";
+ 
+   body{
+    background-color:rgb(26,26,26);
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255,255,255,0.9);
+    padding:0px;
+    margin:0px;
+   
+   }
+
+  header#menu div#backg-menu {
+    margin-top:-16px;
+    display:block;
+    height:300px;
+    background-image:url("../img/img_music.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  header#menu ul#lista {
+    list-style: none;
+    display: flex;  
+    justify-content: flex-end;
+    background: rgb(199,135,80);
+    opacity: 0.7;
+    margin-top:0px;
+
+
+  }
+  header#menu ul#lista a{
+      text-decoration: none;
+    }
+  header#menu ul#lista li#titulo{
+     font-size:1.5em;
+     white-space: nowrap;
+     margin-right:300px;
+    }
+
+ 
+  header#menu ul#lista li#titulo:hover{
+     background: rgb(199,135,80);
+    color: rgba(31,28,14,.9);
+
+    
+  }
+   header#menu ul#lista li{
+    margin-right:70px;
+    padding: 15px;
+    font-weight:bolder;
+    font-size:1.15em;
+    color: rgba(31,28,14,.9);
+    white-space: nowrap;
+  }
+
+  header#menu ul#lista li:hover{
+     background-color:rgb(26,26,26);
+    color: white;
+    margin-bottom: 7px solid rgb(26,26,26); 
+    transition: 0.7s;
+  }
+main {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+   main section.conteudos {
+    margin-left: 170px;
+    margin-right: 180px;
+    text-align: justify;
+    margin-top:50px;
+    opacity:0.7;
+    line-height:2em;
+
+    
+}
+main section.conteudos h2{
+    color: green;
+}
+
+footer#rodape {
+  background:rgb(145,103,64);
+  display: flex;
+  height: 100px;
+  font-size:50px;
+  text-align: center;
+  padding: 0px;
+  justify-content: center;
+
+
+}
+footer#rodape a i{
+margin: 10px;
+color:rgb(26,26,26);
+margin-top:25px;
+
+}

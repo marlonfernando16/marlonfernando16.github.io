@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contato</title>
+	<link rel="stylesheet" type="text/css" href="../css/conteudos.css">
+	 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+	main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin-left: 130px;
+	}
+	img {
+		width: 650px;
+		grid-column:1;
+		margin-top: 20px;
+		margin-left: 40px;
+	}
+	main form {
+		font-size: 1.5em;
+		margin-left: 150px;
+		grid-column: 2;
+	}
+	main form input{
+		height: 20px;
+	}
+	textarea#msg {
+		height: 100px;
+	}
+	main form input.botao{
+		font-size: 15px;
+	}
+</style>
+</head>
+<body>
+<header id="menu">
+   <div id="backg-menu">
+   </div>
+
+   <ul id="lista">
+          <li id="titulo">Teoria Musical em questão </li>
+          <a href="../index.html"><li>Home</li></a>
+         <a href="dicas.html"> <li>Dicas</li></a>
+         <a href="contato.html"> <li style="background-color:rgb(26,26,26); color: white;border-bottom: 7px solid rgb(26,26,26);">Contato</li></a>
+     </ul>
+   </header>
+<main>
+<div>
+	<img src="../img/img_baixo.jpg">
+</div>
+
+<form method="post">
+	<label><p>Nome:</label>
+	<br>
+    <input type="text" name="nome" maxlength="20">
+	</p>
+	<label><p>E-mail:</label>
+	<br>
+	<input type="email" placeholder="example@hotmail.com" name="email">
+	</p>
+	
+	<div>
+	 <label for="msg">Mensagem:</label><br>
+
+        <textarea id="msg" name="usuario_msg"></textarea>
+    </div>
+    <br><br>
+	<input type="submit" class="botao" name="bt_enviar">
+	<input type="reset" class="botao" name="bt_limpar">
+
+</form>
+
+</main>
+
+ <footer id="rodape">
+      <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+      <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+</footer>
+
+</body>
+</html>
